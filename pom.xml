@@ -12,7 +12,7 @@
 
   <name>nancy :: module :: test</name>
   <artifactId>nancy-test</artifactId>
-  <version>${project.parent.version}</version>
+  <version>2</version>
 
   <dependencies>
     <dependency>
