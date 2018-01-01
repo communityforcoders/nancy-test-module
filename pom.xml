@@ -10,7 +10,7 @@
     <version>2</version>
   </parent>
 
-  <name>nancy :: test</name>
+  <name>nancy :: module :: test</name>
   <artifactId>nancy-test</artifactId>
   <version>${project.parent.version}</version>
 
