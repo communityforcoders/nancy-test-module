@@ -10,7 +10,7 @@ import pl.communityforcoders.nancy.module.annotation.Manifest;
 import pl.communityforcoders.nancy.module.annotation.OnDisable;
 import pl.communityforcoders.nancy.module.annotation.OnEnable;
 
-@Manifest(name = "TestModule", author = "kacperduras", version = "1.0.0.0")
+@Manifest(name = "TestModule", author = "kacperduras", version = "1.0.0.1")
 public class TestModule {
 
   @Inject
