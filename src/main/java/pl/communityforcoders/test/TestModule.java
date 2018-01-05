@@ -6,11 +6,11 @@ import org.apache.commons.lang3.Validate;
 import pl.communityforcoders.nancy.Nancy;
 import pl.communityforcoders.nancy.module.annotation.Inject;
 import pl.communityforcoders.nancy.module.annotation.Listener;
-import pl.communityforcoders.nancy.module.annotation.Manifest;
+import pl.communityforcoders.nancy.module.annotation.ModuleManifest;
 import pl.communityforcoders.nancy.module.annotation.OnDisable;
 import pl.communityforcoders.nancy.module.annotation.OnEnable;
 
-@Manifest(name = "TestModule", author = "kacperduras", version = "1.0.0.1")
+@ModuleManifest(name = "TestModule", author = "kacperduras", version = "1.0.0.1")
 public class TestModule {
 
   @Inject
@@ -20,7 +20,7 @@ public class TestModule {
   private File directory;
 
   @Inject
-  private Manifest manifest;
+  private ModuleManifest manifest;
 
   @OnEnable
   public void onEnable(Nancy nancy) {
